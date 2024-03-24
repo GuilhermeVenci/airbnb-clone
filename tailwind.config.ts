@@ -13,9 +13,16 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      screens: {
+        sm: '480px',
+        md: '768px',
+        lg: '976px',
+        xl: '1440px',
+      },
       colors: {
-        'airbnb-red': '#FF5A5F',
+        'airbnb-red': '#FF385C',
         'airbnb-pink': '#FFB2A6',
+        'airbnb-medium-gray': '#717171',
         'airbnb-dark': '#222222',
         'airbnb-gray': '#DDDDDD',
         'airbnb-light-gray': '#F7F7F7',

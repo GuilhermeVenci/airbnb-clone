@@ -14,18 +14,20 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       screens: {
-        sm: '480px',
-        md: '768px',
-        lg: '976px',
+        xs: '550px',
+        sm: '744px',
+        md: '950px',
+        lg: '1128px',
         xl: '1440px',
       },
       colors: {
         'airbnb-red': '#FF385C',
         'airbnb-pink': '#FFB2A6',
-        'airbnb-medium-gray': '#717171',
-        'airbnb-dark': '#222222',
-        'airbnb-gray': '#DDDDDD',
         'airbnb-light-gray': '#F7F7F7',
+        'airbnb-gray': '#DDDDDD',
+        'airbnb-medium-gray': '#717171',
+        'airbnb-deep-gray': '#EBEBEB',
+        'airbnb-dark': '#222222',
       },
       fontFamily: {
         sans: [
@@ -56,6 +58,7 @@ const config: Config = {
         // Personalize de acordo com o design do Airbnb
       },
       boxShadow: {
+        xs: 'rgb(0 0 0/8%) 0 1px 0',
         sm: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
         md: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
         // Adapte os shadows conforme o design do Airbnb
